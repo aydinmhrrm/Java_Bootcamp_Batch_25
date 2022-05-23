@@ -1,6 +1,6 @@
 package inheritance_abstraction;
 
-public class Tesla extends Car{
+public class Tesla extends Car implements LuxuryCar{
     public Tesla(int year, String make, String model, String color, double price) {
         super(year, "Tesla", model, color, price);
     }
@@ -8,5 +8,11 @@ public class Tesla extends Car{
     @Override
     public void start() {
         System.out.println("Say start");
+    }
+
+
+    @Override
+    public void massage() {
+        System.out.println("Welcome to Mercedes");
     }
 }

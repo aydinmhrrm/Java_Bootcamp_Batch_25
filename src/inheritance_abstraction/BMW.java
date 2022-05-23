@@ -1,12 +1,17 @@
 package inheritance_abstraction;
 
-public class BMW extends Car{
-    public BMW(int year, String make, String model, String color, double price) {
+public class BMW extends Car implements LuxuryCar{
+    public BMW(int year, String model, String color, double price) {
         super(year, "BMW", model, color, price);
     }
 
     @Override
     public void start() {
-        System.out.println("START THE ENGINE WITH THE START STOP BUTTON");
+        System.out.println("Start the engine with the start stop button");
+    }
+
+    @Override
+    public void massage() {
+        System.out.println("Welcome to BMW");
     }
 }
