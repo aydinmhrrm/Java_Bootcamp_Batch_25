@@ -2,9 +2,9 @@ package inheritance_abstraction;
 
 public abstract class Car {
     public final int year;
-    public final String make,model;
-    public String color;
-    public  double price;
+    public final String make, model;
+    public  String color;
+    public double price;
 
     public Car(int year, String make, String model, String color, double price) {
         this.year = year;
@@ -17,6 +17,9 @@ public abstract class Car {
         System.out.println("Driving " + make + " " + model);
     }
     public abstract void start();
+    public static void carStatic(){
+        System.out.println("Car Static");
+    }
 
     @Override
     public String toString() {

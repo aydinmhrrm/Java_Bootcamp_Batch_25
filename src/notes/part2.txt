@@ -204,8 +204,8 @@ Java Boot Camp
 
 
 		WebDriver driver;
-		( (TakeScreenShot)driver ).takeScrenShot
-		( (JavaScriptExecuter)driver ).executerScript
+		( (TakeScreenShot)driver ).takeScreenShot
+		( (JavaScriptExecute)driver ).executeScript
         ex:
 		List list=new ArrayList();
 		List list=new LinkedList();
@@ -215,6 +215,14 @@ Java Boot Camp
 
 
 24. Reference type casting:
+TakeScreenShot screen=new ChromeDriver();
+
+((WebDriver)screen).get("https://www.google.com");
+
+WebDriver driver=new ChromeDriver();
+TakeScreenShot screen=(TakeScreenShot)driver;
+screen.takeScreenShot();
+
 			
 			up casting: casting the smaller type to larger type (automatically done)
 
