@@ -106,7 +106,7 @@ Java Boot Camp
 
 
 
-10. Method Overloading (Static Polymorphism): multiple methods sharing the same method name
+10. Method Overloading (Static Polymorphism): multiple methods sharing the same
 						method name MUST be same and Parameter MUST be different
 
 

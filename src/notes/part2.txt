@@ -52,7 +52,7 @@ Java Boot Camp
 		  A class can be extended by multiple classes
 
 
-	    TesteBase
+	    TestBase
 			  driver
 
 			@BeforeMethod  {
@@ -142,7 +142,6 @@ Java Boot Camp
 
 						we cannot override:
 								final, private, static
-
 
 
 20. Final keyword: unchangeable
