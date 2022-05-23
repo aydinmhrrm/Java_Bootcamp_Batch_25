@@ -7,11 +7,14 @@ public class BMW extends Car implements LuxuryCar{
 
     @Override
     public void start() {
-        System.out.println("Start the engine with the start stop button");
+        System.out.println(make +" "+model+" Start the engine with the start stop button");
     }
 
     @Override
     public void massage() {
-        System.out.println("Welcome to BMW");
+        System.out.println("Welcome to the BMW");
+    }
+    public static void carStatic(){
+        System.out.println("BMW Static");
     }
 }

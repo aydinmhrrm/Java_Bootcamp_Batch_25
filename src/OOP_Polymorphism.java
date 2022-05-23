@@ -10,6 +10,6 @@ public class OOP_Polymorphism {
         System.out.println("======================================");
         car= new BMW(2019, "i8", "Black", 100000);
         car.start();
-        ((BMW) car).carStatic();
+        ((BMW)car).carStatic();
     }
 }

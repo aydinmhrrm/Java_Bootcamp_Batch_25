@@ -1,7 +1,7 @@
 package inheritance_abstraction;
 
 public final class Honda extends Car {
-    public Honda(int year, String make, String model, String color, double price) {
+    public Honda(int year,String model, String color, double price) {
         super(year, "Honda", model, color, price);
     }
 
